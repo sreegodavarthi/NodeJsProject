@@ -4,11 +4,12 @@
   "description": "NodeJs and ExpressJs project",
   "main": "app/app.js",
   "scripts": {
-    "start": "node app/app.js"
+    "start": "nodemon -e css,ejs,js,json --watch app"
   },
   "author": "Sree",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "reload": "^1.1.1"
   }
 }
